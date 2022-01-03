@@ -9,7 +9,7 @@ Faça um código simples que crie 5 threads e execute todas elas imprimindo seu 
 Faça um código simples que crie 10 threads e um vetor de CEM MIL posições, popule o mesmo vetor na thread principal, crie cada uma das 10 threads fazendo com que as mesmas concorram entre si para somar as posições do vetor sem repetições das posições do mesmo. Cada thread só poderá somar uma posição por vez, USE MUTEX.
 Seu código deve, ALÉM de expor o resultado final correto, imprimir quantas posições de soma cada thread foi responsável. 
 
-# trab1.c -
+# trab1.c:
 
 Existem 6 processos nesse problema: 3 processos infectados e 3 processos laboratoriais.
 
@@ -30,11 +30,17 @@ no caso, os infectados irão contabilizar o número de vezes que cada um se inje
 Exemplo de de execução:
 
 ./covid-19 90  [irá executar até todas as threads terem executado seu objetivo PELO MENOS 90 vezes]
+
 infectado 1: 120
+
 infectado 2: 100
+
 infectado 3: 90
+
 laboratorio 1: 120
+
 laboratorio 2: 100
+
 laboratorio 3: 90
 
 
