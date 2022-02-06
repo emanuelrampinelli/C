@@ -46,19 +46,26 @@ laboratorio 3: 90
 # trab2.c:
 
 Na barbearia há N barbeiros, N cadeiras de barbeiro e X cadeiras para eventuais clientes esperarem a vez.
+
 Quando não há clientes, os barbeiros sentam-se nas suas cadeiras de barbeiro e caem no sono.
+
 Quando chega um cliente, ele precisa acordar algum barbeiro.
-Se outros clientes chegarem enquanto o barbeiro estiver cortando o cabelo de um cliente, eles se sentarão (se houver cadeiras vazias) ou sairão da barbearia (se todas as cadeiras estiverem ocupadas)
+
+Se outros clientes chegarem enquanto o barbeiro estiver cortando o cabelo de um cliente, eles se sentarão (se houver cadeiras vazias) ou sairão da barbearia (se todas as cadeiras estiverem ocupadas).
+
 O problema é programar o barbeiro e os clientes sem cair em condições de disputa.
 Seu programa deve paralelizar isso, de forma a evitar todos os problemas padrões da paralelização clássica, e receber como argumentos N e X pela linha de comando, além de um Z que é o número de clientes mínimo que cada barbeiro deve atender.
 O código final tem que imprimir exatamente na ordem dos barbeiros e o quanto de cliente eles atenderam.
  
 exemplo:
 ./barbeiros 1 5 10
+
 barbeiro 0 atendeu 10 clientes
  
 ./barbeiros 2 5 10
+
 barbeiro 0 atendeu 15 clientes
+
 barbeiro 1 atendeu 10 clientes
 
 
